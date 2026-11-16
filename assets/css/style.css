@@ -39,8 +39,8 @@ h1,h2,h3,.disp{font-family:"Space Grotesk",Inter,system-ui,sans-serif;font-weigh
 @keyframes shift{to{background-position:250% 0}}
 .hero p.lead{font-size:clamp(17px,4.4vw,22px);color:var(--mut);max-width:34em}
 .stats{display:flex;flex-wrap:wrap;gap:10px}
-.stats span{padding:10px 16px;border-radius:14px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);font-weight:600;font-size:14px}
-.stats b{color:var(--cy);font-family:"Space Grotesk";font-size:18px;margin-right:4px}
+.stats span{padding:8px 13px;font-size:13px;border-radius:14px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);font-weight:600;font-size:14px}
+.stats b{color:var(--cy);font-family:"Space Grotesk";font-size:16px;margin-right:4px}
 .cue{display:flex;align-items:center;gap:10px;color:var(--mut);margin-top:4px}
 .cue i{width:22px;height:36px;border:2px solid var(--mut);border-radius:14px;position:relative}
 .cue i:after{content:"";position:absolute;left:50%;top:7px;width:4px;height:7px;margin-left:-2px;border-radius:2px;background:var(--cy);animation:wheel 1.6s infinite}
